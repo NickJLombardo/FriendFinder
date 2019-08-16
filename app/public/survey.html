@@ -2,83 +2,45 @@
 <html>
 <head>
 	<title>Friend Finder </title>
-
-	
   	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-          
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>      
 </head>
 
 <body>
 	<header>
-
+	</header>
 	<main>
-		<div>
-	    <div>
 			<div>
+			<h3>Question 1</h3>
+				<h5>Your mind is always buzzing with plans.</h5>
+							<select id="question1">
+						<option value="" disabled selected>Choose your option</option>
+						<option value="1">1 (Strongly Disagree)</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5 (Strongly Agree)</option>
+				</select>
+				</div>
+
 				<div>
-						<h1>Survey Questions</h1>
-						<div></div>
-						<h3>About You</h3>
-				
-				<div>
-					<h3>Question 1</h3>
-						<h5>Your mind is always buzzing with unexplored ideas and plans.</h5>
-						<select>
-							<option value="">Choose your option</option>
-							<option value="1">1 (Strongly Disagree)</option>
-							<option value="2">2</option>
-							<option value="3">3</option>
-							<option value="4">4</option>
-							<option value="5">5 (Strongly Agree)</option>
-							</select>
-						</div>
+				<h3>Question 2</h3>
+				<h5>Generally speaking, you rely more on your experience than your imagination.</h5>
+				<select id="question2">
+				<option value="" disabled selected>Choose your option</option>
+				<option value="1">1 (Strongly Disagree)</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5 (Strongly Agree)</option>
+				</select>
+				</div>
 
 						<div>
-						<h3>Question 2</h3>
-						<h5>Generally speaking, you rely more on your experience than your imagination.</h5>
-							<select>
-							<option value="" disabled selected>Choose your option</option>
-							<option value="1">1 (Strongly Disagree)</option>
-							<option value="2">2</option>
-							<option value="3">3</option>
-							<option value="4">4</option>
-							<option value="5">5 (Strongly Agree)</option>
-						</select>
-						</div>
-
-						<div>
-						<h3>Question 3</h3>
-						<h5>You find it easy to stay relaxed and focused even when there is some pressure.</h5>
-						<select>
-							<option value="" disabled selected>Choose your option</option>
-							<option value="1">1 (Strongly Disagree)</option>
-							<option value="2">2</option>
-							<option value="3">3</option>
-							<option value="4">4</option>
-							<option value="5">5 (Strongly Agree)</option>
-					    </select>
-						</div>
-
-						<div>
-						<h3>Question 4</h3>
-						<h5>You rarely do something just out of sheer curiosity.</h5>
-						<select>
-							<option value="" disabled selected>Choose your option</option>
-							<option value="1">1 (Strongly Disagree)</option>
-							<option value="2">2</option>
-							<option value="3">3</option>
-							<option value="4">4</option>
-							<option value="5">5 (Strongly Agree)</option>
-							</select>
-						</div>
-
-						<div>
-							<h3>Question 5</h3>
-							<h5>People can rarely upset you.</h5>
-							<select>
+							<h3>Question 3</h3>
+							<h5>You find it easy to stay relaxed and focused under pressure.</h5>
+							<select id="question3">
 								<option value="" disabled selected>Choose your option</option>
 								<option value="1">1 (Strongly Disagree)</option>
 								<option value="2">2</option>
@@ -89,48 +51,74 @@
 						</div>
 
 						<div>
-							<h3>Question 6</h3>
-							<h5>It is often difficult for you to relate to other people’s feelings.</h5>
-							<select>
+							<h3>Question 4</h3>
+							<h5>You rarely do something just out of sheer curiosity.</h5>
+							<select id="question4">
 								<option value="" disabled selected>Choose your option</option>
 								<option value="1">1 (Strongly Disagree)</option>
 								<option value="2">2</option>
 								<option value="3">3</option>
 								<option value="4">4</option>
 								<option value="5">5 (Strongly Agree)</option>
-							</select>
-						</div>
-
-						<div>
-							<h3>Question 7</h3>
-							<h5>In a discussion, truth should be more important than people’s sensitivities.</h5>
-							<select>
-								<option value="" disabled selected>Choose your option</option>
-								<option value="1">1 (Strongly Disagree)</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-								<option value="4">4</option>
-								<option value="5">5 (Strongly Agree)</option>
-							</select>
-						</div>
-
-						<div>
-						<h3>Question 8</h3>
-						<h5>You rarely get carried away by fantasies and ideas.</h5>
-							<select>
-							<option value="" disabled selected>Choose your option</option>
-							<option value="1">1 (Strongly Disagree)</option>
-							<option value="2">2</option>
-							<option value="3">3</option>
-							<option value="4">4</option>
-							<option value="5">5 (Strongly Agree)</option>
 							</select>
 						</div>
 
 					<div>
-					<h3>Question 9</h3>
-						<h5>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h5>
-						<select>
+						<h3>Question 5</h3>
+					<h5>It takes alot for you to get upset.</h5>
+						<select id="question5">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+					</div>
+
+					<div>
+					<h3>Question 6</h3>
+							<h5>It is often difficult to feel emotions for others.</h5>
+							<select id="question6">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+					</select>
+			</div>
+
+				<div>
+				<h3>Question 7</h3>
+				<h5>In a discussion, truth should be the most important value.</h5>
+							<select id="question7">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+				</div>
+
+				<div>
+					<h3>Question 8</h3>
+							<h5>You rarely get carried away by fantasies and ideas.</h5>
+							<select id="question8">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+					</div>
+
+				<div>
+							<h3>Question 9</h3>
+							<h5>You think that everyone’s views should be respected regardless of opinion.</h5>
+							<select id="question9">
 							<option value="" disabled selected>Choose your option</option>
 							<option value="1">1 (Strongly Disagree)</option>
 							<option value="2">2</option>
@@ -138,43 +126,52 @@
 							<option value="4">4</option>
 							<option value="5">5 (Strongly Agree)</option>
 							</select>
-						</div>
+					</div>
 
 						<div>
 							<h3>Question 10</h3>
-							<h5>You feel more energetic after spending time with a group of people.</h5>
-							<select>
+							<h5>You feel more energetic around others.</h5>
+							<select id="question10">
 								<option value="" disabled selected>Choose your option</option>
 								<option value="1">1 (Strongly Disagree)</option>
 								<option value="2">2</option>
 								<option value="3">3</option>
 								<option value="4">4</option>
 								<option value="5">5 (Strongly Agree)</option>
-                            </select>  
-                        </div>
-              <br>
+							</select>
+						</div>
+						<div>
+							<button class="btn" type="submit" name="action" id="submitButton">Submit Responses
+							</button>
+				    </div>
+			    </div>
+		    </div>
+	    </div>
+	</div>
+	</main>
 
-					<div>
-						<button class="btn waves-effect waves-light" type="submit" name="action" id="submitButton">Submit Responses
-						</button>
-				</div>					
-            </div>
-			</div>
+	<div id="modal1" class="modal">
+		<div >
+			<h4>Closest Friend Match</h4>
+			<h5 id="userMatch"></h5>
 		</div>
-		</div>
-    </main>
-    <br>
 		<div class="modal-footer">
-			<a href="survey.html">Fill Again!</a>
+			<a href="/survey" class="modal-action modal-close">Fill Again!</a>
 		</div>
 	</div>
 
 	<script type="text/javascript">
-		// Activate submit button
+		$(document).ready(function() {
+			$('select').material_select();
+			$('.modal').modal({
+		dismissible: false, opacity: .5,inDuration: 300, outDuration: 200, startingTop: '4%', endingTop: '10%' 
+			});
+		});
+		
 		$('#submitButton').on('click', function(event) {
 			event.preventDefault();
-			// Gather user inputs
 			var userInput = {
+				name: $('#userName').val(),
 				scores:[
 					$('#question1').val(),
 					$('#question2').val(),
@@ -187,13 +184,13 @@
 					$('#question9').val(),
 					$('#question10').val()
 				]
-            };
-            
-            var currentURL = window.location.origin;
-
-			$.post(currentURL+ '/api/friends', userInput)
-            .done(function(data) {
+			};
+		
+			$.post('/api/friends', userInput)
+      		.done(function(data) {
       			$('#userMatch').html(data.matchName);
+		    
+      			$('#modal1').modal('open');
       		});
 		});
 	</script>
